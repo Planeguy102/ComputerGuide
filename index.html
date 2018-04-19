@@ -4,8 +4,55 @@
 <link rel="stylesheet" href="Planeguy102/ComputerGuide/styles.css">
 <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
 <style>
-    
-<style>
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('ComputerGuide/maxime-rossignol-266384.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: gray;
+}
+
+h1 span {
+    backround-color: gray;
+}
 div {
     display: block;
 }
